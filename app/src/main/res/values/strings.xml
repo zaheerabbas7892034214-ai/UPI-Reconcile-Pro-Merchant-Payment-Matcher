@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UPI Reconcile Pro</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_upload">Upload</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">UPI Reconcile Pro</string>
+    <string name="home_subtitle">Merchant Payment Matcher</string>
+    <string name="home_start_reconciliation">Start Reconciliation</string>
+    <string name="home_view_history">View History</string>
+    <string name="home_settings">Settings</string>
+    
+    <!-- Upload Screen -->
+    <string name="upload_title">Upload Files</string>
+    <string name="upload_upi_statement">Upload UPI Statement</string>
+    <string name="upload_sales_register">Upload Sales Register</string>
+    <string name="upload_selected">Selected: %1$s</string>
+    <string name="upload_proceed">Proceed to Reconciliation</string>
+    <string name="upload_free_limit">FREE: 1 file each</string>
+    
+    <!-- Processing Screen -->
+    <string name="processing_title">Processing</string>
+    <string name="processing_parsing">Parsing CSV files…</string>
+    <string name="processing_detecting">Detecting columns…</string>
+    <string name="processing_reconciling">Reconciling payments…</string>
+    <string name="processing_complete">Complete!</string>
+    
+    <!-- Dashboard Screen -->
+    <string name="dashboard_title">Reconciliation Dashboard</string>
+    <string name="dashboard_metrics">Metrics</string>
+    <string name="dashboard_total_invoices">Total Invoices</string>
+    <string name="dashboard_total_payments">Total Payments</string>
+    <string name="dashboard_matched">Matched</string>
+    <string name="dashboard_unmatched">Unmatched</string>
+    <string name="dashboard_duplicates">Duplicates</string>
+    <string name="dashboard_risk_score">Risk Score</string>
+    <string name="dashboard_amount_reconciled">Amount Reconciled</string>
+    <string name="dashboard_discrepancy">Discrepancy</string>
+    <string name="dashboard_view_matched">View Matched</string>
+    <string name="dashboard_view_unmatched">View Unmatched</string>
+    <string name="dashboard_export">Export Results</string>
+    
+    <!-- Matched List Screen -->
+    <string name="matched_title">Matched Transactions</string>
+    <string name="matched_free_limit">FREE: Showing first 20 results</string>
+    <string name="matched_upgrade">Upgrade to PRO for full results</string>
+    <string name="matched_invoice">Invoice: %1$s</string>
+    <string name="matched_upi_ref">UPI Ref: %1$s</string>
+    <string name="matched_amount">₹%1$s</string>
+    <string name="matched_date">Date: %1$s</string>
+    <string name="matched_type_exact">Exact Match</string>
+    <string name="matched_type_partial">Partial Match</string>
+    
+    <!-- Unmatched List Screen -->
+    <string name="unmatched_title">Unmatched Items</string>
+    <string name="unmatched_tab_invoices">Missing Payments</string>
+    <string name="unmatched_tab_payments">Unmatched UPI</string>
+    <string name="unmatched_tab_duplicates">Duplicates</string>
+    <string name="unmatched_reason">Reason: %1$s</string>
+    
+    <!-- Export Screen -->
+    <string name="export_title">Export Results</string>
+    <string name="export_pro_only">PRO Feature</string>
+    <string name="export_excel">Export Excel</string>
+    <string name="export_pdf">Export PDF Summary</string>
+    <string name="export_excel_desc">Multi-sheet workbook with complete data</string>
+    <string name="export_pdf_desc">Professional summary report</string>
+    <string name="export_success">Exported successfully!</string>
+    <string name="export_error">Export failed: %1$s</string>
+    
+    <!-- Paywall Screen -->
+    <string name="paywall_title">Upgrade to PRO</string>
+    <string name="paywall_price">₹1,499/year</string>
+    <string name="paywall_feature_unlimited">Unlimited file uploads</string>
+    <string name="paywall_feature_full_results">Full reconciliation results</string>
+    <string name="paywall_feature_detection">Mismatch &amp; duplicate detection</string>
+    <string name="paywall_feature_export">Export Excel + PDF</string>
+    <string name="paywall_feature_history">Save reconciliation history</string>
+    <string name="paywall_feature_lock">App lock (PIN + Biometric)</string>
+    <string name="paywall_subscribe">Subscribe Now</string>
+    <string name="paywall_restore">Restore Purchases</string>
+    <string name="paywall_loading">Loading…</string>
+    <string name="paywall_pending">Purchase pending…</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subscription">Subscription</string>
+    <string name="settings_pro_active">PRO Active</string>
+    <string name="settings_free_tier">Free Tier</string>
+    <string name="settings_expires">Expires: %1$s</string>
+    <string name="settings_restore">Restore Purchases</string>
+    <string name="settings_manage">Manage Subscription</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_app_lock">App Lock</string>
+    <string name="settings_app_lock_desc">Require PIN or biometric</string>
+    <string name="settings_preferences">Preferences</string>
+    <string name="settings_date_tolerance">Date Tolerance (days)</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    
+    <!-- App Lock Screen -->
+    <string name="app_lock_title">UPI Reconcile Pro</string>
+    <string name="app_lock_subtitle">Enter PIN to unlock</string>
+    <string name="app_lock_use_biometric">Use Biometric</string>
+    <string name="app_lock_incorrect">Incorrect PIN</string>
+    <string name="app_lock_biometric_prompt">Authenticate to unlock</string>
+    <string name="app_lock_biometric_cancel">Cancel</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="back">Back</string>
+    
+    <!-- Errors -->
+    <string name="error_file_read">Failed to read file</string>
+    <string name="error_csv_parse">Failed to parse CSV</string>
+    <string name="error_billing">Billing error: %1$s</string>
+    <string name="error_generic">An error occurred</string>
+    
+    <!-- History -->
+    <string name="history_title">Reconciliation History</string>
+    <string name="history_empty">No saved reconciliations</string>
+    <string name="history_session">Session: %1$s</string>
+    <string name="history_date">Date: %1$s</string>
+    
+    <!-- Column Mapping -->
+    <string name="column_mapping_title">Map Columns</string>
+    <string name="column_mapping_desc">Auto-detection failed. Please map columns manually.</string>
+    <string name="column_mapping_amount">Amount Column</string>
+    <string name="column_mapping_date">Date Column</string>
+    <string name="column_mapping_reference">Reference Column</string>
+    <string name="column_mapping_merchant">Merchant Column (Optional)</string>
+    <string name="column_mapping_save">Save Mapping</string>
+</resources>
