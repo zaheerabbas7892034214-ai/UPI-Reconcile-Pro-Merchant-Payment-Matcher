@@ -6,6 +6,7 @@ import com.zaheer.upireconcilepro.data.database.AppDatabase
 class UPIReconcileApplication : Application() {
     
     companion object {
+        @Volatile
         lateinit var database: AppDatabase
             private set
     }
