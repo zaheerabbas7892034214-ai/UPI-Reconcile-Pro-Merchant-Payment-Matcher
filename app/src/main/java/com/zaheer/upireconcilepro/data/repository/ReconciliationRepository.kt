@@ -9,6 +9,7 @@ import com.zaheer.upireconcilepro.data.database.entity.ReconciliationSessionEnti
 import com.zaheer.upireconcilepro.data.database.entity.UnmatchedItemEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withContext
 
 class ReconciliationRepository(
@@ -140,8 +141,8 @@ class ReconciliationRepository(
     suspend fun getSessionCount(): Result<Int> {
         return withContext(Dispatchers.IO) {
             try {
-                val count = sessionDao.getAll().hashCode()
-                Result.Success(count)
+                val sessions = sessionDao.getAll().first()
+                Result.Success(sessions.size)
             } catch (e: Exception) {
                 Log.e(TAG, "Error getting session count", e)
                 Result.Error("Failed to get session count: ${e.message}")
